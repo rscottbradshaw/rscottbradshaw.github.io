@@ -15,4 +15,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem "foundation-rails", :require => false
 
+gem "font-awesome-sass"
+
 gem "middleman-deploy"
