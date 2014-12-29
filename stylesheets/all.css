@@ -8786,19 +8786,19 @@ th.hide-for-touch {
 
 #landing img {
     width: 100%;
-    height: 650px;
+    height: 600px;
     position: relative;
 }
 
 #landing .my-pic {
     top: 200px;
-    left: 125px;
+    left: 700px;
     position: absolute;
 }
 
 .my-pic{
     max-height: 250px;
-    max-width: 275px;
+    max-width: 289px;
     border-radius: 50px;
     padding: 5px;
     opacity: 0.90;
@@ -8806,7 +8806,7 @@ th.hide-for-touch {
 
 .info {
     position: absolute;
-    left: 450px;
+    left: 125px;
     top: 230px;
 }
 
