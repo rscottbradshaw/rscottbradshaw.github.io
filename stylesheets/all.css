@@ -8747,9 +8747,13 @@ th.hide-for-touch {
 
 
 
+body {
+    background-image: url("../images/light_alu.png");
+}
+
 /* Top bar */
 .top-bar {
-    background-color: white;
+    background-color: #ffffff;
     height: 70px;
 }
 
@@ -8779,6 +8783,23 @@ th.hide-for-touch {
       padding-left: 5px;
     }
 
+    #contact {
+        height: 70px;
+        float: right;
+    }
+
+    .contact-nav ul li {
+        display:inline;
+    }
+
+    .contact-nav a i{
+        font-size: 45px;
+        color: lightblue;
+        margin-top: 12px;
+        margin-right: 25px;
+    }
+
+
 /* Main landing page */
 #landing {
     top: 70px;
@@ -8792,7 +8813,7 @@ th.hide-for-touch {
 
 #landing .my-pic {
     top: 200px;
-    left: 700px;
+    left: 650px;
     position: absolute;
 }
 
@@ -8800,8 +8821,9 @@ th.hide-for-touch {
     max-height: 250px;
     max-width: 289px;
     border-radius: 50px;
-    padding: 5px;
-    opacity: 0.90;
+    border: 2px white solid;
+    /*padding: 5px;*/
+    /*opacity: 0.90;*/
 }
 
 .info {
@@ -8825,7 +8847,6 @@ th.hide-for-touch {
 }
 
 .info ul {
-    color: white;
     font-size: 20px;
     margin-left: 5px;
     margin-top: 15px;
@@ -8836,6 +8857,10 @@ th.hide-for-touch {
     list-style-type: none;
     margin-right: 20px;
     padding-right: 5px;
+}
+
+.info ul li a {
+    color: white;
 }
 
 /* Portfolio */
@@ -8910,45 +8935,15 @@ th.hide-for-touch {
     font-size: 30px;
 }
 
-/*Contact*/
-#contact {
-    clear: both;
-}
-
-.contact-nav {
-    background-color: lightgrey;
-    height: 70px;
-}
-
-.contact-nav h3 {
-    font-size: 30px;
-    float: left;
-    margin: 15px 25px 0 15px;
-}
-
-.contact-nav ul {
-    margin: 0;
-}
-
-.contact-nav ul li {
-    display:inline;
-}
-
-.contact-nav a i{
-    font-size: 65px;
-    color: black;
-    margin-top: 4px;
-    margin-right: 75px;
-}
-
+/*Experience*/
 .experience h1 {
+    clear: both;
     font-size: 50px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*Experience*/
 .experience #programmer {
     margin-left: 25px;
     margin-right: 25px;
