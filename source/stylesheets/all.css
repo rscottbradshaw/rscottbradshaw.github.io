@@ -13,6 +13,7 @@ body {
 .top-bar {
     background-color: #ffffff;
     height: 70px;
+    /*position: fixed;*/
 }
 
   .top-bar ul li {
@@ -132,6 +133,7 @@ body {
 .festivit h1 {
     text-align: center;
     font-size: 50px;
+    text-decoration: underline;
 }
 
 .festivit-info {
@@ -145,10 +147,15 @@ body {
     font-size: 30px;
 }
 
+.project-links {
+    font-size: 20px;
+}
+
 /*Current*/
 #current h1 {
     text-align: center;
     font-size: 50px;
+    text-decoration: underline;
 }
 
 #current .interior {
@@ -200,6 +207,7 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: underline;
 }
 
 .experience #programmer {
@@ -214,8 +222,10 @@ body {
     text-align: center;
 }
 
-.experience p {
-    text-align: center;
+.experience ul li {
+    list-style-type: circle;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 .experience #sales {
