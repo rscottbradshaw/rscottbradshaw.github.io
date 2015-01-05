@@ -7,6 +7,7 @@
 
 body {
     background-image: url("../images/light_alu.png");
+    background-attachment: fixed;
 }
 
 /* Top bar */
@@ -121,17 +122,16 @@ body {
 
 /* Portfolio */
 #portfolio {
-    max-width: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
     top: 70px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     z-index: -1;
 }
 
 .festivit {
-    top: 70px;
+    margin-top: 70px;
     position: relative;
 }
 
@@ -161,11 +161,13 @@ body {
     position: relative;
     top: 70px;
     z-index: -1;
+    overflow: auto;
 }
 
 .projects {
-    top: 70px;
+    margin-top: 70px;
     position: relative;
+    text-align: center;
 }
 
 #current h1 {
@@ -175,9 +177,10 @@ body {
 }
 
 .interior {
-    margin-left: 100px;
+    display: inline-block;
+    vertical-align: top;
     max-width: 500px;
-    float: left;
+    margin: 0 4%;
 }
 
 .icpic {
@@ -196,9 +199,10 @@ body {
 }
 
 .kids {
-    margin-right: 100px;
+    display: inline-block;
+    vertical-align: top;
     max-width: 500px;
-    float: right;
+    margin: 0 4%;
 }
 
 .children {
@@ -218,29 +222,30 @@ body {
 
 /*Experience*/
 #experience {
-    clear: both;
     position: relative;
     top: 70px;
     z-index: -1;
+    overflow: auto;
 }
 
 .prior-experience {
-    top: 70px;
+    margin-top: 70px;
     position: relative;
+    text-align: center;
 }
+
 .prior-experience h1 {
     font-size: 50px;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
     text-decoration: underline;
 }
 
 #programmer {
-    margin-left: 25px;
-    margin-right: 25px;
+    display: inline-block;
     max-width: 350px;
-    float: left;
+    text-align: left;
+    margin: 0 2%;
 }
 
 .prior-experience h4 {
@@ -255,17 +260,20 @@ body {
 }
 
 #sales {
-    margin-left: 25px;
-    margin-right: 25px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
     max-width: 350px;
-    float: left;
+    margin: 0 2%;
 }
 
 #manager {
-    margin-left: 25px;
-    margin-right: 25px;
+    /*float: left;*/
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
     max-width: 350px;
-    float: left;
+    margin: 0 2%;
 }
 
 
