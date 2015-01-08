@@ -8808,30 +8808,30 @@ body {
     top: 70px;
     position: relative;
     z-index: -1;
-}
-
-#landing img {
-    width: 100%;
-    height: 80%;
+    height: 100%;
+    background-image: url("../images/longroad.jpg");
+    background-size: 100% 100%;
+    text-align: center;
 }
 
 #landing .my-pic {
-    top: 175px;
-    left: 650px;
-    position: absolute;
+    position: relative;
+    display: inline-block;
+    margin: 0 8%;
 }
 
 .my-pic{
-    max-height: 250px;
-    max-width: 289px;
+    height: 250px;
+    width: 289px;
     border-radius: 50px;
     border: 2px white solid;
 }
 
 .info {
-    position: absolute;
-    left: 125px;
-    top: 205px;
+    display: inline-block;
+    margin: 15% 2%;
+    text-align: left;
+    vertical-align: middle;;
 }
 
 .info h1 {
